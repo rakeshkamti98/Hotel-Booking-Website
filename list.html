@@ -1,18 +1,136 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
 
-</style>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>List</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/list.css">
 </head>
+
 <body>
-<div class="container">
-    <div class="header"> 
-        <img src="C:\documents\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" alt="logo" style=" width:300px; height: 200px; ">
-     <header>Header Div</header>
-   </div>
-   <div class="Content">Content Div</div>
-   <div class="Footer"><footer>Footer Div</footer></div>
-</div>
+    <!---------Main Container--------------------Main Conatiner--------------------Main Container---------------------------------->
+    <div class=" main-container">
+        <!-------HEADER DIV-----------------------HEADER DIV----------HEADER DIV----------------------------------------->
+        <header>
+            <a href="index.html">
+                <img id="hotel-logo" alt="logo" src="assests/images/logo.png"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a style="text-decoration: none; color: black;" href="login.html" target="_blank">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-----------------COntent div------------------Content div--------------------COntent DIV-----------------------Content DIV----------------------------->
+        <main id="main-content">
+
+            <!-------When i click on the list view it will rediect me to the fist div---------->
+            <div id="links">
+                <b> <a href="#hotel-one">List view</a></b>
+
+
+                <!-------When i click on the map view it will rediect me to div where id is map view--------->
+
+                <b><a href="list.html #map-view">Map View</a></b>
+            </div>
+
+            <div class="box">
+                <div id="hotel-one">
+                    <a href="detail.html">
+                        <img alt="Hotel-radison" height="200" width="250px"
+                            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                    </a>
+                    
+                        <div class="info">
+                            <b>
+                        <p>
+                        <h2>Radison BLU</h2>
+                        </p>
+                    </b>
+                    </br>
+                    <p> 5 Star</p>
+                    </br>
+                    <p>New Delhi</p>
+                </div>
+            </div>
+                <div  id="hotel-two">
+                    <img alt="Hotel-Lalit" height="200" width="250px"
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
+                        <div class="info">
+                    <b>
+                        <p>
+                        <h2> Lalit New Delhi</h2>
+                        </p>
+                    </b>
+                    </br>
+                    <p> 4.0 Star</p>
+                    </br>
+                    <p>New Delhi</p>
+                </div>
+                </div>
+                <div id="hotel-three">
+                    <img alt="Hotel-taj-paalce" height="200" width="250px"
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
+                        <div class="info">
+                    <b>
+                        <p>
+                        <h2>Taj Palace</h2>
+                        </p>
+                    </b>
+                    </br>
+                    <p> 4.3 Star</p>
+                    </br>
+                    <p>New Delhi</p>
+                </div>
+            </div>
+                <!---------When i click on the map view it will rediect me to div where id is map view------------>
+
+                <div id="map-view">
+                    <img alt="Map-view" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
+                    <b>
+                        <p>
+                        <h2>MAP VIEW</h2>
+                        </p>
+                    </b>
+                </div>
+            </div>
+        </main>
+        <!-----------------------Footer----------------Footer-------------------------------Footer------------->
+        
+        <footer>
+            <li class="contact-item"><a href="contact.html" style="color: black; text-decoration: none; " target="_blank">Contact-us</a>
+            </li>
+            <p>&#169; ROOM RESEARCH PVT.LTD</p>
+            <nav >
+            <ul class="links-nav" >
+                <li>
+                    <a href="https://login.facebook.com/" target="_blank">
+                        <img alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png">
+                    </a>
+                </li>
+      
+                <li>
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                        <img alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png">
+                    </a>
+                </li>
+      
+                <li>
+                    <a  href="https://login.twitter.com/" target="_blank">
+                        <img alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png">
+                    </a>
+                </li>
+      
+            </ul>
+        </nav>
+      
+        </footer>
+        
+    </div>
 </body>
+
 </html>

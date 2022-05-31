@@ -1,0 +1,94 @@
+#main-content{
+    flex: 1;
+    overflow: auto;
+   
+
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  
+}
+
+
+.hotel-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 8%;
+   
+    
+}
+
+.hotel-content .hotel-img{
+    
+    
+}
+.hotel-info{
+    padding-left: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    background-color:  rgb(132, 136, 139);
+  flex-basis: 29%;
+}
+
+
+
+
+fieldset {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        flex-basis: 29%;
+       margin-top: 2%;
+       margin-left:2% ;
+       margin-right: 30px;
+       margin-bottom: 200px;
+
+    background-color: rosybrown;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
+}
+ .cust-info  {
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+.cust-info .view{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+
+
+.tariff-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+   
+}
+.tariff-info .view{
+    display: flex;
+    justify-content:center;
+   
+}
+
+
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.pay-now{
+    text-decoration: none;
+    color: black;
+    float: left; padding-bottom: 35px;
+}

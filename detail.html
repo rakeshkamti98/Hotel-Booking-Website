@@ -1,18 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
 
-</style>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Detail</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/detail.css">
 </head>
+
 <body>
-<div class="container">
-    <div class="header"> 
-        <img src="C:\documents\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" alt="logo" style=" width:300px; height: 200px; ">
-     <header>Header Div</header>
-   </div>
-   <div class="Content">Content Div</div>
-   <div class="Footer"><footer>Footer Div</footer></div>
-</div>
+  <!---------Main Container--------------------Main Conatiner--------------------Main Container---------------------------------->
+  <div class="main-container">
+    <!-------HEADER DIV------HEADER DIV----------HEADER DIV---------------------->
+    <header>
+      <a href="index.html">
+        <img id="hotel-logo" alt="logo" src="assests/images/logo.png"></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a style="text-decoration: none; color: black;" href="login.html" target="_blank">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!------------------------------content div------------------------Content div-----------contentdiv------------->
+    <main id="main-content">
+      <div class="side-nav">
+        <div class="img-container"></div>
+
+        <div class="form-div">
+          <form class="login-form" method="post" action="payment.html">
+
+            <div class="flex-input">
+              <label for="adults">Adults:</label>
+              <input type="number" min="1" max="50" required>
+            </div>
+
+            <div class="flex-input">
+              <label for="Name">Name:</label>
+              <input type="text" required>
+            </div>
+
+            <div class="flex-input">
+              <label for="fdate">From-Date:</label>
+              <input type="date" required>
+            </div>
+
+            <div class="flex-input">
+              <label for="tdate">To-Date:</label>
+              <input type="date" required>
+            </div>
+
+            <div class="flex-input">
+              <label for="total">Total:</label>
+              <input type="number" readonly>
+            </div>
+
+            <div class="flex-input">
+              <button type="submit" value="Book-Now">Book-Now</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <div class="description">
+        <div> <b>
+            <p>
+            <h2>Radison Blu Hotel</h2>
+            </br>
+            </p>
+          </b>
+          <p><h4 style="font-family: cursive;">RATING:</h4></p>
+          </br>
+          <p>5 Star</p>
+        </div>
+        <div>
+         <h4 style="font-family: cursive;"> AMINITIES:-</h4>
+        </br>
+          <ul>
+            <li>Room Service</li>
+            <li>Restaurant</li>
+            <li>Bussiness Center</li>
+            <li>Fitness Crnter </li>
+            <li>Pool</li>
+          </ul>
+        </div>
+        <div class="last-div">
+          <h4 style="font-family: cursive;">DESCRIPTION:-</h4>
+        </br>
+          <p>Your Radisson Blu experience should be all about personalization, every step of the way. By paying close
+            attention to the small details that make a big difference, we inspire unforgettable experiences with every
+            stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite
+            destinations.
+            Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to every Radisson Blu
+            dining experience.</p>
+        </div>
+      </div>
+    </main>
+    <!------------------------------footer div------------------------Footer div-----------Footer div------------->
+    <footer>
+      <li class="contact-item"><a href="contact.html" style="color: black; text-decoration: none; "
+          target="_blank">Contact-us</a>
+      </li>
+      <p>&#169; ROOM RESEARCH PVT.LTD</p>
+      <nav>
+        <ul class="links-nav">
+          <li>
+            <a href="https://login.facebook.com/" target="_blank">
+              <img alt="logo-facebook " height="20px" width="22px" src="assests/images/facebook.png">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+              <img alt="logo-facebook" height="20px" width="22px" src="assests/images/instagram.png">
+            </a>
+          </li>
+
+          <li>
+            <a href="https://login.twitter.com/" target="_blank">
+              <img alt="logo-facebook " height="20px" width="22px" src="assests/images/twitter.png">
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </footer>
+    <!--------end------------------>
+  </div>
 </body>
+
 </html>

@@ -1,0 +1,87 @@
+main {
+    
+    overflow: auto;
+    padding: 1rem;
+    margin: 10px;
+    
+  }
+
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+   
+}
+#hotel-one {
+    display: flex;
+    height: 201px;
+    width: 42%;
+    margin: 2%;
+    text-decoration: none;
+    background-color: lightgrey;
+   
+}
+#hotel-one .info{ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#hotel-two {
+    display: flex;
+    height: 201px;
+    width: 42%;
+    margin: 2%;
+    text-decoration: none;
+    background-color: lightgrey;
+   
+}
+#hotel-two .info{ 
+    padding: 1rem;
+}
+#hotel-three {
+    display: flex;
+    height: 201px;
+    width: 42%;
+    margin: 2%;
+    text-decoration: none;
+    background-color: lightgrey;
+   
+}
+#hotel-three .info{ 
+    padding: 1rem;
+}
+
+
+#map-view {
+    margin: 2%;
+display: none;
+  
+    height: 330px;
+    width: 40%;
+    margin: 2%;
+    text-decoration: none;
+    background-color: rgb(132, 136, 139);
+    
+   
+}
+
+#links {
+    display: inline-block;
+    width:1024px;
+    margin-left: 90px;
+    padding-top: 70px;
+    padding-left: 365px;
+}
+
+#links a {
+    margin-left: 80px;
+    color: black;
+    text-decoration: none;
+
+
+}

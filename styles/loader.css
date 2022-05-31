@@ -1,0 +1,20 @@
+.loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 120px;
+    height: 120px;
+    
+}
+
+div {
+
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin: -35px 0 0 -35px;
+}
